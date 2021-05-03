@@ -1,4 +1,4 @@
-#What is this
+# What is this
 
 I've created this (very) small script because I was having issues with Fedora on my AMD Ryzen 2500U laptop.
 Every time I restarted Fedora, the brightness of my display was set to 100%, no matter the setting applied in the previous session
