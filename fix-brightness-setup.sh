@@ -7,4 +7,3 @@ sudo cp fix-brightness.sh /opt/andrea/
 sudo cp fix-brightness-2.sh /opt/andrea/
 sudo systemctl enable fix-brightness.service
 sudo systemctl enable fix-brightness-2.service
-

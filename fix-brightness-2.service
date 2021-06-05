@@ -1,5 +1,5 @@
 [Unit]
-Description=Save system clock on shutdown
+Description=Save brightness at shutdown to use it to restore at next startup
 DefaultDependencies=no
 After=final.target
 

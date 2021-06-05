@@ -1,6 +1,9 @@
 [Unit]
-Description=Convert 16-bit brightness values to 8-bit before systemd-backlight applies it
-Before=systemd-backlight@backlight:amdgpu_bl0.service
+Description=Fix brightness at startup
+After=systemd-user-sessions.service plymouth-quit-wait.service
+After=rc-local.service
+Before=getty.target
+IgnoreOnIsolate=yes
 
 [Service]
 Type=oneshot
